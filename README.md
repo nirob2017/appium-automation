@@ -7,14 +7,20 @@ Key feature:
 - Used `excel` file for external data.
 - Allure Report for test results.
 
+## Recorded video of tests execution:
+
+
+https://github.com/nirob2017/appium-automation/assets/28677044/e00a9daa-431b-4e85-98d2-d9527ad523f1
+
+
 
 ## Setup & Running Tests
 
-1. Open project in an any IDE & open android emulator.
-2. Run the test:
-   ```mvn test```
-3. For Allure report:
-   ```allure serve```
+1. Open the project in any IDE & open Android emulator.
+2. Run the test: ```mvn test``` or manually run this `nopStationAndroidTest.java` class under `src/test/java/com/test`
+3. For Allure report(After running tests): ```allure serve```
+
+NB - If you get any error like `directory not found....` while running `allure serve` create a folder under `target` named `allure-results` or `allure-reports` or vice-versa. After that run again the `allure serve` command.
 
 Happy Testing :)
 
