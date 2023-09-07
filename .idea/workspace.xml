@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="787d4222-8ada-4700-bf02-e47c2a6fa973" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/helpers/AppiumServerSetup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/helpers/BaseCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/helpers/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/nopStationAndroidTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/pages/AddProductToCartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/pages/OrderDetailsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/AndroidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/AndroidTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/AndroidTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/BillingDetails.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/testData/BillingDetails.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +50,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/monsur/Documents/appium/appium-automation/apps&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/monsur/Documents/appium/appium-automation/apps"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/apps" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/test/testData" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.test.helpers.BaseCommands" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.AndroidTest">
-    <configuration name="AndroidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.nopStationAndroidTest">
+    <configuration name="nopStationAndroidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="appium-automation" />
       <extension name="coverage">
         <pattern>
@@ -63,13 +80,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.AndroidTest" />
+      <option name="MAIN_CLASS_NAME" value="com.test.nopStationAndroidTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AndroidTest.addProductToCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="nopStationAndroidTest.addProductToCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="appium-automation" />
       <extension name="coverage">
         <pattern>
@@ -78,14 +95,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.AndroidTest" />
+      <option name="MAIN_CLASS_NAME" value="com.test.nopStationAndroidTest" />
       <option name="METHOD_NAME" value="addProductToCartTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AndroidTest.androidLaunchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="nopStationAndroidTest.androidLaunchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="appium-automation" />
       <extension name="coverage">
         <pattern>
@@ -94,7 +111,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.AndroidTest" />
+      <option name="MAIN_CLASS_NAME" value="com.test.nopStationAndroidTest" />
       <option name="METHOD_NAME" value="androidLaunchTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -103,9 +120,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AndroidTest" />
-        <item itemvalue="JUnit.AndroidTest.addProductToCartTest" />
-        <item itemvalue="JUnit.AndroidTest.androidLaunchTest" />
+        <item itemvalue="JUnit.nopStationAndroidTest" />
+        <item itemvalue="JUnit.nopStationAndroidTest.addProductToCartTest" />
+        <item itemvalue="JUnit.nopStationAndroidTest.androidLaunchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -119,5 +136,16 @@
       <updated>1693878379756</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
